@@ -1,8 +1,8 @@
 package com.wilsomani.controllers
 
 import com.wilsomani.controlers.ConstructorInjectedController
-import com.services.GreetingServiceImpl
-import com.services.HELLO_GURUS
+import com.wilsomani.services.GreetingServiceImpl
+import com.wilsomani.services.HELLO_GURUS
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test

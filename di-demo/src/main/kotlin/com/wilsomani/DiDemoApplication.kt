@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan
 @SpringBootApplication
 // use componentScan if you have other components u want scanned in other packages
 // cos spring just scans by default the package of the spring boot application class
-@ComponentScan(basePackages = ["com.services", "com.wilsomani"])
+//@ComponentScan(basePackages = ["com.wilsomani.services", "com.wilsomani"])
 class DiDemoApplication
 
 fun main(args: Array<String>) {

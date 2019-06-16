@@ -1,6 +1,6 @@
 package com.wilsomani.controlers
 
-import com.services.GreetingService
+import com.wilsomani.services.GreetingService
 import org.springframework.stereotype.Controller
 
 // the constructor is automatically autoWired.

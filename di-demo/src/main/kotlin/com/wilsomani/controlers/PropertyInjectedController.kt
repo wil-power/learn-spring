@@ -1,6 +1,6 @@
 package com.wilsomani.controlers
 
-import com.services.GreetingServiceImpl
+import com.wilsomani.services.GreetingServiceImpl
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Controller
 

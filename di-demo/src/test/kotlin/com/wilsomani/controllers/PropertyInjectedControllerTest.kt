@@ -1,8 +1,8 @@
 package com.wilsomani.controllers
 
 import com.wilsomani.controlers.PropertyInjectedController
-import com.services.GreetingServiceImpl
-import com.services.HELLO_GURUS
+import com.wilsomani.services.GreetingServiceImpl
+import com.wilsomani.services.HELLO_GURUS
 import junit.framework.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
