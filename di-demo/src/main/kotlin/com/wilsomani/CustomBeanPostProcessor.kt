@@ -8,14 +8,14 @@ class CustomBeanPostProcessor: BeanPostProcessor {
 
     override fun postProcessAfterInitialization(bean: Any, beanName: String): Any? {
         if (bean is LifeCycleDemoBean)
-            (bean as LifeCycleDemoBean).afterInit()
+            bean.afterInit()
 
         return bean
     }
 
     override fun postProcessBeforeInitialization(bean: Any, beanName: String): Any? {
         if (bean is LifeCycleDemoBean)
-            (bean as LifeCycleDemoBean).beforeInit()
+            bean.beforeInit()
 
         return bean
     }

@@ -1,8 +1,6 @@
 package com.wilsomani.controlers
 
-import com.wilsomani.services.ConstructorGreetingService
-import com.wilsomani.services.GreetingService
-import org.springframework.beans.factory.annotation.Qualifier
+import com.services.GreetingService
 import org.springframework.stereotype.Controller
 
 // the constructor is automatically autoWired.

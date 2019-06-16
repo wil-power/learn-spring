@@ -7,8 +7,12 @@ import com.wilsomani.controlers.SetterInjectedController
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.context.ApplicationContext
+import org.springframework.context.annotation.ComponentScan
 
 @SpringBootApplication
+// use componentScan if you have other components u want scanned in other packages
+// cos spring just scans by default the package of the spring boot application class
+@ComponentScan(basePackages = ["com.services", "com.wilsomani"])
 class DiDemoApplication
 
 fun main(args: Array<String>) {

@@ -1,4 +1,4 @@
-package com.wilsomani.services
+package com.services
 
 interface GreetingService {
 
