@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component
 
 @Component
 class CustomBeanPostProcessor: BeanPostProcessor {
+
     override fun postProcessAfterInitialization(bean: Any, beanName: String): Any? {
         if (bean is LifeCycleDemoBean)
             bean.afterInit()
