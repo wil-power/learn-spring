@@ -3,7 +3,6 @@ package com.wilsomani
 import org.springframework.beans.factory.config.BeanPostProcessor
 import org.springframework.stereotype.Component
 
-
 @Component
 class CustomBeanPostProcessor: BeanPostProcessor {
 
